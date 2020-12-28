@@ -1,0 +1,8 @@
+
+.toolbar{
+    height: 140px;
+    background: '#03315C';
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
