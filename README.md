@@ -8,13 +8,13 @@ El objetivo del “Primer Congreso Internacional de Álgebra y Sistemas Dinámic
 
 ## Version Desktop 🛠️
 <p align="center">
-  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="700" height="350">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/master/src/assets/README1.png" width="700" height="350">
 </p>
 
 ## Version Mobile :iphone:
 <p align="center" display="flex" >
-  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="300" height="650">
-  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="300" height="650">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/master/src/assets/README1.png" width="300" height="650">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/master/src/assets/README1.png" width="300" height="650">
 </p>
 
 ## Construido con 🛠️
