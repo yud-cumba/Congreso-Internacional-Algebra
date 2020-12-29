@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   appBar: {
-    height: '70px',
+    height: '90px',
     [theme.breakpoints.up('sm')]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '25px',
     paddingLeft: '15px',
     [theme.breakpoints.up('sm')]: {
-      fontSize: '40px',
+      fontSize: '38px',
     },
   },
   subtittle: {
@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '40px',
     width: '75%',
     fontFamily: 'Bebas Neue',
-    fontSize: '20px',
+    fontSize: '21px',
     textAlign: 'center',
     [theme.breakpoints.up('sm')]: {
       fontSize: '45px',
@@ -208,7 +208,6 @@ const NavigationBar = (prop) => {
       </nav>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-        <Divider classes={{ root: classes.divider }} />
         <Switch>
           {pages.map((page) => (
             <Route exact path={page.path} key={page.path}>
