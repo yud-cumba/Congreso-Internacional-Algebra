@@ -13,8 +13,8 @@ El objetivo del “Primer Congreso Internacional de Álgebra y Sistemas Dinámic
 
 ## Version Mobile :iphone:
 <p align="center" display="flex" >
-  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README2.png" width="300" height="650">
-  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README3.png" width="300" height="650">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README2.png" width="330" height="650">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README3.png" width="330" height="650">
 </p>
 
 ## Construido con 🛠️
