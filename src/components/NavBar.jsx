@@ -69,17 +69,27 @@ const useStyles = makeStyles((theme) => ({
   },
   list: {
     fontFamily: 'Bebas Neue',
-    fontSize: '40px',
+    fontSize: '25px',
     paddingLeft: '15px',
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '40px',
+    },
+  },
+  subtittle: {
+    fontSize: '15px',
+    marginTop: '0px',
+    [theme.breakpoints.up('sm')]: {
+      fontSize: '25px',
+    },
   },
   typography: {
-    paddingTop: '50px',
+    paddingTop: '40px',
     width: '75%',
     fontFamily: 'Bebas Neue',
     fontSize: '20px',
     textAlign: 'center',
     [theme.breakpoints.up('sm')]: {
-      fontSize: '50px',
+      fontSize: '45px',
       paddingTop: '5px',
     },
   },
@@ -158,6 +168,8 @@ const NavigationBar = (prop) => {
           <div className="toolbar">
             <Typography variant="h1" className={classes.typography}>
               I CONGRESO INTERNACIONAL DE ÁLGEBRA Y SISTEMAS DINÁMICOS
+              <br />
+              <p className={classes.subtittle}>EDICIÓN ONLINE, FEBRERO 23-26, 2021</p>
             </Typography>
             <img src={cone} alt="escudex" className={classes.img} />
           </div>
