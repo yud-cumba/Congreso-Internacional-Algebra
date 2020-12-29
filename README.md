@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# :iphone: COMPRATUDEPA
+## Comenzando 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El presente evento científico es organizado por el Departamento Académico de Matemática de la UNMSM, en coordinación con un grupo de profesores de la Facultad de Ciencias Matemáticas y de otras universidades, como una contribución de la Facultad al desarrollo científico del país y consolidar en un futuro próximo la formación de un grupo de investigación. Para esto se ha reunido a un grupo importante y prestigioso de matemáticos nacionales e internacionales de las áreas de Álgebra y Sistemas Dinámicos.
 
-## Available Scripts
+**OBJETIVO**
+El objetivo del “Primer Congreso Internacional de Álgebra y Sistemas Dinámicos” es mostrar resultados actuales que están desarrollando investigadores de las áreas de Álgebra y Sistemas Dinámicos, los conferencistas darán a conocer sus resultados y avances de sus trabajos, de este modo se fomentará la investigación entre los estudiantes y profesores de nuestra facultad, como también se incentivará las relaciones con otras instituciones nacionales e internacionales.
 
-In the project directory, you can run:
+## Version Desktop 🛠️
+<p align="center">
+  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="700" height="350">
+</p>
 
-### `npm start`
+## Version Mobile :iphone:
+<p align="center" display="flex" >
+  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="300" height="650">
+  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="300" height="650">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Construido con 🛠️
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [REACT](https://es.reactjs.org/) - El framework web usado
+* [MATERIAL-UI](https://material-ui.com/) - La librería UI
+* [FIREBASE CLOUD FIRESTORE](https://firebase.google.com/docs/database) - Base de datos en la nube
+* [FIREBASE HOSTING](https://firebase.google.com/docs/) - Hosting
 
-### `npm test`
+### Pre-requisitos 📋
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-### `npm run build`
+```
+Debes tener instalado Node, git, Vuejs y una cuenta en github.
+```
+```
+Mira **Deployment** para conocer como desplegar el proyecto.
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Descripción de branchs ⚙️
+```
+- main : Contiene la última versión, alineado con producción
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+- dev : Desarrollo de funcionalidades y maquetado
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+## Ejecutando las pruebas ⚙️
 
-### `npm run eject`
+_Explica como ejecutar las pruebas automatizadas para este sistema_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Por implementar
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Analice los tests unitarios 🔩
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+_Explica que verifican estas pruebas y por qué_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+Por implementar
+```
 
-## Learn More
+## Despliegue 📦
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Notas adicionales sobre como hacer deploy_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [https://congreso-algebra-sistdinamicos.web.app/](https://congreso-algebra-sistdinamicos.web.app/) - Link de despliegue producción
+## Versionado 📌
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/yud-cumba/PMO-compratudepa/tags).
 
-### Analyzing the Bundle Size
+## Agradecimientos y colaboraciones 🛠️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [Yumari Cruz]() - Diseño UX
 
-### Making a Progressive Web App
+* [Roberto Fiestas]() - Diseño UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
