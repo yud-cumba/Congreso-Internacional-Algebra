@@ -8,18 +8,18 @@ El objetivo del “Primer Congreso Internacional de Álgebra y Sistemas Dinámic
 
 ## Version Desktop 🛠️
 <p align="center">
-  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="700" height="350">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README1.png" width="700" height="350">
 </p>
 
 ## Version Mobile :iphone:
 <p align="center" display="flex" >
-  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="300" height="650">
-  <img src="https://github.com/yud-cumba/pmo-app/blob/master/src/assets/README1.png" width="300" height="650">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README2.png" width="330" height="630">
+  <img src="https://github.com/yud-cumba/Congreso-Internacional-Algebra/blob/main/src/assets/README3.png" width="330" height="630">
 </p>
 
 ## Construido con 🛠️
 
-* [REACT](https://es.reactjs.org/) - El framework web usado
+* [REACT](https://es.reactjs.org/) - La libreria para desarrollo web usada
 * [MATERIAL-UI](https://material-ui.com/) - La librería UI
 * [FIREBASE CLOUD FIRESTORE](https://firebase.google.com/docs/database) - Base de datos en la nube
 * [FIREBASE HOSTING](https://firebase.google.com/docs/) - Hosting

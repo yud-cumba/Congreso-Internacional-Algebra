@@ -21,6 +21,7 @@ import {
 import pages from '../routes/index';
 import escudoUNMSM from '../assets/escudo.svg';
 import cone from '../assets/cone.svg';
+import Footer from './Footer';
 // eslint-disable-next-line import/no-unresolved
 import './NavBar.css';
 
@@ -51,9 +52,14 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   divider: {
-    // Theme Color, or use css color in quote
     height: '5px',
     background: '#FFAA05',
+  },
+  toolbarImg: {
+    height: '100px',
+    [theme.breakpoints.up('sm')]: {
+      height: '140px',
+    },
   },
   // necessary for content to be below app bar
   toolbar: {
@@ -68,6 +74,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#071725',
   },
   list: {
+    marginTop: '0',
     fontFamily: 'Bebas Neue',
     fontSize: '25px',
     paddingLeft: '15px',
@@ -105,6 +112,9 @@ const useStyles = makeStyles((theme) => ({
       width: '95px',
     },
   },
+  main: {
+    width: '100%',
+  },
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
@@ -129,10 +139,9 @@ const NavigationBar = (prop) => {
 
   const drawer = (
     <div>
-      <div className={classes.toolbar} style={styleToolbar}>
+      <div className={classes.toolbarImg} style={styleToolbar}>
         <img src={escudoUNMSM} alt="escudo" className={classes.escudo} />
       </div>
-      <div className={classes.toolbar} />
       <Divider classes={{ root: classes.divider }} />
       <List>
         {pages.map((page) => (
@@ -206,16 +215,19 @@ const NavigationBar = (prop) => {
           </Drawer>
         </Hidden>
       </nav>
-      <main className={classes.content}>
-        <div className={classes.toolbar} />
-        <Switch>
-          {pages.map((page) => (
-            <Route exact path={page.path} key={page.path}>
-              <page.component />
-            </Route>
-          ))}
-        </Switch>
-      </main>
+      <div className={classes.main}>
+        <main className={classes.content}>
+          <div className={classes.toolbar} />
+          <Switch>
+            {pages.map((page) => (
+              <Route exact path={page.path} key={page.path}>
+                <page.component />
+              </Route>
+            ))}
+          </Switch>
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 };
