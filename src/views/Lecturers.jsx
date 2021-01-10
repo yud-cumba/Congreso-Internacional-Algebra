@@ -12,13 +12,13 @@ const useStyles = makeStyles((theme) => ({
   list: {
     marginLeft: '0px',
     fontFamily: 'Barlow',
-    fontSize: '18px',
+    fontSize: '20px',
     textTransform: 'capitalize',
     fontStyle: 'normal',
     fontWeight: '1000',
     letterSpacing: '0em',
     [theme.breakpoints.up('sm')]: {
-      fontSize: '22px',
+      fontSize: '25px',
     },
   },
 }));
