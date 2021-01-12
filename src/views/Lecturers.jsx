@@ -81,7 +81,11 @@ export default function Lecturers() {
       country: 'Brasil',
       university: 'Universidade Federal de Minas Gerais',
     },
-
+    {
+      name: 'Bruno Azevedo',
+      country: 'Brasil',
+      university: 'Universidade Federal do Rio de Janeiro',
+    },
     {
       name: 'Begoña Alarcón',
       country: 'Brasil',
@@ -151,7 +155,7 @@ export default function Lecturers() {
     {
       name: 'Hernán Neciosup',
       country: 'Perú',
-      Puniversity: 'ontificia Universidad Católica del Perú',
+      university: 'Pontificia Universidad Católica del Perú',
     },
 
     {
@@ -167,7 +171,7 @@ export default function Lecturers() {
     },
 
     {
-      name: 'Mauro Hernández',
+      name: 'Fernando Hernández',
       country: 'Perú',
       university: 'Universidad Nacional Mayor de San Marcos',
     },

@@ -47,7 +47,7 @@ export default function Inscriptions() {
   const classes = useStyles();
   const scientific = [
     'Las ponencias se realizaran de manera virtual a través de la plataforma Google Meet.',
-    'La constancia de participación de los asistentes se entregará de manera gratuita via e-mail a aquellos que tengan un mínimo del 80% de asistencia del total de ponencias. Los datos del certificado se realizarán con los registrados en el fórmulario de inscripción.',
+    ' El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 15 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción.  Para poder acceder a los certificados visite la pestaña certificación. ',
     'Para poder inscribirse en el congreso, deberá completar la solicitud de registo a traves del siguiente enlace dirección del enlace.',
 
   ];
