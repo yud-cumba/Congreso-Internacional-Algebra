@@ -5,6 +5,7 @@ import Links from '../views/Links';
 import Inscriptions from '../views/Inscriptions';
 import Lecturers from '../views/Lecturers';
 import Summary from '../views/Summary';
+import Certification from '../views/Certification';
 
 const pages = [
   {
@@ -41,6 +42,11 @@ const pages = [
     path: '/inscriptions',
     sidebarName: 'INSCRIPCIONES',
     component: Inscriptions,
+  },
+  {
+    path: '/certification',
+    sidebarName: 'CERTIFICACIÓN',
+    component: Certification,
   },
 
 ];
