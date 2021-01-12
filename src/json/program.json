@@ -1,0 +1,178 @@
+[
+  {
+    "day": "Martes 23",
+    "program_day": [
+      {
+        "name": "ÁLGEBRA",
+        "program": [
+          {
+            "hour": "09:30 - 10:00",
+            "description": "Inauguración y presentación."
+          },
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          }
+        ]
+      },
+      {
+        "name": "SISTEMAS DINÁMICOS",
+        "program": [
+          {
+            "hour": "14:00 - 15:00",
+            "description": "Tema",
+            "speaker": "Rudy Rosas",
+            "university": "PUCP",
+            "country": "Perú"
+          },
+          {
+            "hour": "15:00 - 16:00",
+            "description": "Tema",
+            "speaker": "Rudy Rosas",
+            "university": "PUCP",
+            "country": "Perú"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Miércoles 24",
+    "program_day": [
+      {
+        "name": "ÁLGEBRA",
+        "program": [
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      },
+      {
+        "name": "SISTEMAS DINÁMICOS",
+        "program": [
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Jueves 25",
+    "program_day": [
+      {
+        "name": "ÁLGEBRA",
+        "program": [
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      },
+      {
+        "name": "SISTEMAS DINÁMICOS",
+        "program": [
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Viernes 26",
+    "program_day": [
+      {
+        "name": "ÁLGEBRA",
+        "program": [
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      },
+      {
+        "name": "SISTEMAS DINÁMICOS",
+        "program": [
+          {
+            "hour": "11:00 - 12:00",
+            "description": "El número de Milnor de singularidades de curvas planas.",
+            "speaker": "Arkadius Płoski",
+            "university": "Kielce University of Technology",
+            "country": "Polonia"
+          },
+          {
+            "hour": "16:00 - 17:00",
+            "description": "Subconjunto Levi - Flat",
+            "speaker": "Arturo Fernández K",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
+          }
+        ]
+      }
+    ]
+  }
+]

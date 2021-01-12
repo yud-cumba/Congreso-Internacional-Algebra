@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e149c49d.chunk.css",
-    "main.js": "/static/js/main.5b9a63d2.chunk.js",
-    "main.js.map": "/static/js/main.5b9a63d2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.60aa4fc6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.60aa4fc6.js.map",
+    "main.js": "/static/js/main.023e6f51.chunk.js",
+    "main.js.map": "/static/js/main.023e6f51.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1906e767.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1906e767.js.map",
     "static/css/2.86a5f087.chunk.css": "/static/css/2.86a5f087.chunk.css",
-    "static/js/2.7eb3c0d1.chunk.js": "/static/js/2.7eb3c0d1.chunk.js",
-    "static/js/2.7eb3c0d1.chunk.js.map": "/static/js/2.7eb3c0d1.chunk.js.map",
-    "static/js/3.cb7a0feb.chunk.js": "/static/js/3.cb7a0feb.chunk.js",
-    "static/js/3.cb7a0feb.chunk.js.map": "/static/js/3.cb7a0feb.chunk.js.map",
+    "static/js/2.28e28292.chunk.js": "/static/js/2.28e28292.chunk.js",
+    "static/js/2.28e28292.chunk.js.map": "/static/js/2.28e28292.chunk.js.map",
+    "static/js/3.19025b93.chunk.js": "/static/js/3.19025b93.chunk.js",
+    "static/js/3.19025b93.chunk.js.map": "/static/js/3.19025b93.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.86a5f087.chunk.css.map": "/static/css/2.86a5f087.chunk.css.map",
     "static/css/main.e149c49d.chunk.css.map": "/static/css/main.e149c49d.chunk.css.map",
-    "static/js/2.7eb3c0d1.chunk.js.LICENSE.txt": "/static/js/2.7eb3c0d1.chunk.js.LICENSE.txt",
+    "static/js/2.28e28292.chunk.js.LICENSE.txt": "/static/js/2.28e28292.chunk.js.LICENSE.txt",
     "static/media/cienciasMatematicas.475f6f35.png": "/static/media/cienciasMatematicas.475f6f35.png",
     "static/media/cone.0fec20d6.svg": "/static/media/cone.0fec20d6.svg",
     "static/media/escudo.90328fdd.svg": "/static/media/escudo.90328fdd.svg",
@@ -21,10 +21,10 @@
     "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.60aa4fc6.js",
+    "static/js/runtime-main.1906e767.js",
     "static/css/2.86a5f087.chunk.css",
-    "static/js/2.7eb3c0d1.chunk.js",
+    "static/js/2.28e28292.chunk.js",
     "static/css/main.e149c49d.chunk.css",
-    "static/js/main.5b9a63d2.chunk.js"
+    "static/js/main.023e6f51.chunk.js"
   ]
 }

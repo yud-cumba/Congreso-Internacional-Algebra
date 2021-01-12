@@ -146,7 +146,7 @@ const NavigationBar = (prop) => {
       <List>
         {pages.map((page) => (
           <Link to={page.path} style={{ textDecoration: 'none', color: 'white' }}>
-            <ListItem button key={page.sidebarName}>
+            <ListItem button key={page.sidebarName} onClick={handleDrawerToggle}>
               <Typography variant="h1" className={classes.list}>
                 { page.sidebarName }
               </Typography>

@@ -48,7 +48,6 @@ export default function Inscriptions() {
   const scientific = [
     'Las ponencias se realizaran de manera virtual a través de la plataforma Google Meet.',
     ' El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 15 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción.  Para poder acceder a los certificados visite la pestaña certificación. ',
-    'Para poder inscribirse en el congreso, deberá completar la solicitud de registo a traves del siguiente enlace dirección del enlace.',
 
   ];
   return (
@@ -66,7 +65,13 @@ export default function Inscriptions() {
                 {scy}
               </li>
             ))
-          }
+              }
+          <li style={{ marginLeft: '0px' }}>
+            Para poder inscribirse en el congreso,
+            deberá completar la solicitud de registo a traves del siguiente enlace:
+            {' '}
+            <a href="https://forms.gle/Gtuz5sxcKhn1GX5p8" rel="noreferrer" target="_blank">https://forms.gle/Gtuz5sxcKhn1GX5p8</a>
+          </li>
         </ul>
       </Typography>
 

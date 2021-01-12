@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Committee() {
   const classes = useStyles();
   const scientific = [
-    'Arkadiusz Ploski, Kielce University of Technology (Polonia)',
+    'Arkadiusz Płoski, Kielce University of Technology (Polonia)',
     'Evelia Rosa García Barroso, Universidad de La Laguna (España)',
     'Gabriel Armando Muñoz Márquez, Universidad Nacional Mayor de San Marcos (Perú)',
     'Mauro Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos (Perú)',
