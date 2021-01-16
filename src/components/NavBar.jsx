@@ -130,6 +130,9 @@ const NavigationBar = (prop) => {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
+  const close = () => {
+    setMobileOpen(false);
+  };
   const styleToolbar = {
     background: '#03315C',
     display: 'flex',
@@ -146,7 +149,7 @@ const NavigationBar = (prop) => {
       <List>
         {pages.map((page) => (
           <Link to={page.path} style={{ textDecoration: 'none', color: 'white' }}>
-            <ListItem button key={page.sidebarName}>
+            <ListItem button key={page.sidebarName} onClick={close}>
               <Typography variant="h1" className={classes.list}>
                 { page.sidebarName }
               </Typography>
