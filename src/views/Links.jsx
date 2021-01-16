@@ -39,9 +39,9 @@ const useStyles = makeStyles((theme) => ({
   },
   view: {
     // Theme Color, or use css color in quote
-    height: 'calc(100vh - 205px)',
+    height: 'auto',
     [theme.breakpoints.up('sm')]: {
-      height: 'calc(100vh - 290px)',
+      height: 'auto',
     },
   },
 }));

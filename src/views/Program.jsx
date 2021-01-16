@@ -12,6 +12,7 @@ import program from '../json/program.json';
 const useStyles = makeStyles((theme) => ({
   flex: {
     display: 'flex',
+    width: '100%',
   },
   name: {
     margin: '0px',
@@ -34,6 +35,9 @@ const useStyles = makeStyles((theme) => ({
       lineHeight: '15px',
       fontSize: '19px',
     },
+  },
+  tabPanel: {
+    background: 'red',
   },
   description: {
     width: `calc(100% - ${100}px)`,
@@ -62,8 +66,8 @@ function TabPanel(prop) {
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
+      id={`scrollable-auto-tabpanel-${index}`}
+      aria-labelledby={`scrollable-auto-tab-${index}`}
       {...other}
     >
       {value === index && (
@@ -78,7 +82,9 @@ function TabPanel(prop) {
                     :
                   </h4>
                   <div className={classes.description}>
-                    <p>{progr.description}</p>
+                    <p className={progr.description === 'Inauguración y presentación.' ? classes.normal : ''}>
+                      {progr.description}
+                    </p>
                     {progr.speaker ? (
                       <p className={classes.normal}>
                         {progr.speaker}

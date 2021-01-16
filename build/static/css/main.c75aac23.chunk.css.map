@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/NavBar.css"],"names":[],"mappings":"AACA,SACI,YAAa,CACb,oBAAqB,CACrB,YAAa,CACb,6BAA8B,CAC9B,iBACJ","file":"main.c75aac23.chunk.css","sourcesContent":["\n.toolbar{\n    height: 140px;\n    background: '#03315C';\n    display: flex;\n    justify-content: space-between;\n    text-align: center;\n}"]}

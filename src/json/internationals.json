@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Arkadiusz Płoski",
+      "country": "Polonia",
+      "university": "Kielce University of Technology",
+      "link": "https://www.researchgate.net/profile/Arkadiusz_Ploski"
+    },
+
+    {
+      "name": "Arturo Fernández",
+      "country": "Brasil",
+      "university": "Universidade Federal de Minas Gerais",
+      "link": "http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=2d31a9e026c1488f2d8317cee7df?id_investigador=39116"
+    },
+    {
+      "name": "Bruno Azevedo",
+      "country": "Brasil",
+      "university": "Universidade Federal do Rio de Janeiro"
+    },
+    {
+        "name": "Begoña Alarcón",
+        "country": "Brasil",
+        "university": "Universidade Federal Fluminense"
+    },
+
+    {
+        "name": "David Fernández",
+        "country": "Alemania",
+        "university": "Universidad de Bielefeld"
+    },
+
+    {
+        "name": "Evelia García",
+        "country": "España",
+        "university": "Universidad de La Laguna"
+    },
+
+    {
+        "name": "Ignacio García",
+        "country": "España",
+        "university": "Universidad de La Laguna"
+    },
+
+    {
+        "name": "Irene Márquez",
+        "country": "España",
+        "university": "Universidad de La Laguna"
+    },
+
+    {
+        "name": "Liliana Jurado",
+        "country": "Brasil",
+        "university": "Universidade Federal Oeste da Bahia"
+    },
+    {
+        "name": "Marcelo Escudeiro",
+        "country": "Brasil",
+        "university": "Universidade Estadual de Maringá"
+    },
+
+    {
+        "name": "Napoleón Caro",
+        "country": "Brasil",
+        "university": "Universidade Federal de Paraiba"
+    },
+
+    {
+        "name": "Pedro Hernández",
+        "country": "Colombia",
+        "university": "Universidad de Antioquía"
+    }
+  ]

@@ -50,9 +50,9 @@ export default function Committee() {
   const teachers = [
     'Benito Leonardo Ostos Cordero, Universidad Nacional de Ingeniería- IMCA.',
     'Gabriel Armando Muñoz Márquez, Universidad Nacional Mayor de San Marcos.',
-    'Mauro Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos.',
     'María del Carmen Cáceres Huamán, Universidad Nacional Mayor de San Marcos.',
     'Maruja Yolanda Gavilán Gonzales, Universidad Nacional Mayor de San Marcos.',
+    'Mauro Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos.',
   ];
   const students = [
     'Abad Domínguez Quiroz, Universidad Nacional Mayor de San Marcos.',

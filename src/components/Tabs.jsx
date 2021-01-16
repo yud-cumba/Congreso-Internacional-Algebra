@@ -6,6 +6,10 @@ import Tab from '@material-ui/core/Tab';
 import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    width: '100%',
+  },
   toolbar: {
     fontFamily: 'Roboto',
     fontSize: '18px',
@@ -16,9 +20,11 @@ const useStyles = makeStyles((theme) => ({
     background: 'rgb(255, 170, 5, 0.4)',
     borderTopLeftRadius: '10px',
     borderTopRightRadius: '10px',
-    marginRight: '5px',
+    padding: '7px',
+    margin: '0px',
     [theme.breakpoints.up('sm')]: {
       fontSize: '25px',
+      marginRight: '5px',
     },
   },
   withoutColor: {
@@ -30,9 +36,12 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: '0em',
     borderTopLeftRadius: '10px',
     borderTopRightRadius: '10px',
-    marginRight: '5px',
+    boxSizing: 'borderBox',
+    padding: '7px',
+    margin: '0px',
     [theme.breakpoints.up('sm')]: {
       fontSize: '25px',
+      marginRight: '5px',
     },
   },
   divider: {
@@ -60,11 +69,17 @@ export default function SimpleTabs(prop) {
         onChange={handleChange}
         aria-label="Tab"
         indicatorColor="#FFAA05"
+        variant="scrollable"
+        scrollButtons="auto"
       >
         {title.map((t, i) => (
           <Tab
             className={value === i ? classes.toolbar : classes.withoutColor}
             label={t}
+            {...{
+              id: `scrollable-auto-tab-${i}`,
+              'aria-controls': `scrollable-auto-tabpanel-${i}`,
+            }}
           />
         ))}
       </Tabs>

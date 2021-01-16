@@ -7,6 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import PropTypes from 'prop-types';
 import Tabs from '../components/Tabs';
+import internationals from '../json/internationals.json';
+import nationals from '../json/nationals.json';
 
 const useStyles = makeStyles((theme) => ({
   list: {
@@ -20,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('sm')]: {
       fontSize: '22px',
     },
+  },
+  link: {
+    textDecoration: 'none',
+    color: 'black',
   },
 }));
 function TabPanel(prop) {
@@ -43,7 +49,14 @@ function TabPanel(prop) {
             children.map((child) => (
               <div style={{ marginTop: '15px' }}>
                 <li className={classes.list}>
-                  {child.name}
+                  <a
+                    href={child.link ? child.link : '#'}
+                    rel="noreferrer"
+                    target="_blank"
+                    className={classes.link}
+                  >
+                    {child.name}
+                  </a>
                 </li>
                 <Typography>{child.country}</Typography>
                 <Typography>{child.university}</Typography>
@@ -69,144 +82,7 @@ export default function Lecturers() {
     setValue(val);
   }
   const title = ['Internacionales', 'Nacionales'];
-  const internationals = [
-    {
-      name: 'Arkadiusz Płoski',
-      country: 'Polonia',
-      university: 'Kielce University of Technology',
-    },
 
-    {
-      name: 'Arturo Fernández',
-      country: 'Brasil',
-      university: 'Universidade Federal de Minas Gerais',
-    },
-    {
-      name: 'Bruno Azevedo',
-      country: 'Brasil',
-      university: 'Universidade Federal do Rio de Janeiro',
-    },
-    {
-      name: 'Begoña Alarcón',
-      country: 'Brasil',
-      university: 'Universidade Federal Fluminense',
-    },
-
-    {
-      name: 'David Fernández',
-      country: 'Alemania',
-      university: 'Universidad de Bielefeld',
-    },
-
-    {
-      name: 'Evelia García',
-      country: 'España',
-      university: 'Universidad de La Laguna',
-    },
-
-    {
-      name: 'Ignacio García',
-      country: 'España',
-      university: 'Universidad de La Laguna',
-    },
-
-    {
-      name: 'Irene Márquez',
-      country: 'España',
-      university: 'Universidad de La Laguna',
-    },
-
-    {
-      name: 'Liliana Jurado',
-      country: 'Brasil',
-      university: 'Universidade Federal Oeste da Bahia',
-    },
-    {
-      name: 'Marcelo Escudeiro',
-      country: 'Brasil',
-      university: 'Universidade Estadual de Maringá',
-    },
-
-    {
-      name: 'Napoleón Caro',
-      country: 'Brasil',
-      university: 'Universidade Federal de Paraiba',
-    },
-
-    {
-      name: 'Pedro Hernández',
-      country: 'Colombia',
-      university: 'Universidad de Antioquía',
-    },
-  ];
-  const nationals = [
-    {
-      name: 'Benito Ostos',
-      country: 'Perú',
-      university: 'Universidad Nacional de Ingeniería',
-    },
-
-    {
-      name: 'Gabriel Muñoz',
-      country: 'Perú',
-      university: 'Universidad Nacional Mayor de San Marcos',
-    },
-
-    {
-      name: 'Hernán Neciosup',
-      country: 'Perú',
-      university: 'Pontificia Universidad Católica del Perú',
-    },
-
-    {
-      name: 'Joe Palacios',
-      country: 'Perú',
-      university: 'Universidad Nacional de Ingeniería',
-    },
-
-    {
-      name: 'Jorge Crisóstomo',
-      country: 'Perú',
-      university: 'Universidad Nacional Mayor de San Marcos',
-    },
-
-    {
-      name: 'Fernando Hernández',
-      country: 'Perú',
-      university: 'Universidad Nacional Mayor de San Marcos',
-    },
-
-    {
-      name: 'Nancy Saravia',
-      country: 'Perú',
-      university: 'Pontificia Universidad Católica del Perú',
-    },
-
-    {
-      name: 'Percy Fernández',
-      country: 'Perú',
-      university: 'Pontificia Universidad Católica del Perú',
-    },
-
-    {
-      name: 'Renato Benazic',
-      country: 'Perú',
-      university: 'Universidad Nacional Mayor de San Marcos',
-    },
-
-    {
-      name: 'Roland Rabanal',
-      country: 'Perú',
-      university: 'Pontificia Universidad Católica del Perú',
-    },
-
-    {
-      name: 'Rudy Rosas',
-      country: 'Perú',
-      university: 'Pontificia Universidad Católica del Perú',
-    },
-
-  ];
   const content = [internationals, nationals];
   return (
     <div>

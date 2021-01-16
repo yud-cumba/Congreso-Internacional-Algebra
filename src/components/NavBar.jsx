@@ -114,6 +114,9 @@ const useStyles = makeStyles((theme) => ({
   },
   main: {
     width: '100%',
+    height: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
   },
   content: {
     flexGrow: 1,
