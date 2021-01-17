@@ -7,14 +7,21 @@
         "program": [
           {
             "hour": "09:30 - 10:00",
-            "description": "Inauguración y presentación."
+            "description": "Inauguración y presentación"
           },
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
+            "hour": "10:00 - 11:00",
+            "description": "El número de Milnor de singularidades de curvas planas",
             "speaker": "Arkadius Płoski",
             "university": "Kielce University of Technology",
             "country": "Polonia"
+          },
+          {
+            "hour": "11:00 - 12:00",
+            "description": "Curvas polares de ramas planas",
+            "speaker": "Evelia Garcia",
+            "university": "Universidad de La Laguna",
+            "country": "España"
           }
         ]
       },
@@ -23,24 +30,24 @@
         "program": [
           {
             "hour": "14:00 - 15:00",
-            "description": "Tema",
+            "description": "Por confirmar",
             "speaker": "Rudy Rosas",
             "university": "PUCP",
             "country": "Perú"
           },
           {
             "hour": "15:00 - 16:00",
-            "description": "Tema",
-            "speaker": "Rudy Rosas",
-            "university": "PUCP",
-            "country": "Perú"
+            "description": "Subconjuntos Levi-Flat",
+            "speaker": "Arturo Fernández",
+            "university": "Universidade Federal de Minas Gerais",
+            "country": "Brasil"
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
-            "country": "Brasil"
+            "description": "Por confirmar",
+            "speaker": "Percy Fernández",
+            "university": "PUCP",
+            "country": "Perú"
           }
         ]
       }
@@ -53,18 +60,25 @@
         "name": "ÁLGEBRA",
         "program": [
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
-            "speaker": "Arkadius Płoski",
-            "university": "Kielce University of Technology",
-            "country": "Polonia"
+            "hour": "09:00 - 10:00",
+            "description": "Dinámica algebraica",
+            "speaker": "Joe Palacios",
+            "university": "UNI",
+            "country": "Perú"
           },
           {
-            "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
+            "hour": "10:00 - 11:00",
+            "description": "D-Módulos y Cohomología local",
+            "speaker": "Napoleon Caro",
+            "university": "Universidade Federal de Paraiba",
             "country": "Brasil"
+          },
+          {
+            "hour": "11:00 - 12:00",
+            "description": "Por confirmar",
+            "speaker": "Irene Marquez",
+            "university": "Universidad de La Laguna",
+            "country": "España"
           }
         ]
       },
@@ -72,18 +86,25 @@
         "name": "SISTEMAS DINÁMICOS",
         "program": [
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
-            "speaker": "Arkadius Płoski",
-            "university": "Kielce University of Technology",
-            "country": "Polonia"
+            "hour": "14:00 - 15:00",
+            "description": "Sobre foliaciones y formas diferenciables",
+            "speaker": "Liliana Jurado",
+            "university": "Universidade Federal Oeste da Bahia",
+            "country": "Brasil"
+          },
+          {
+            "hour": "15:00 - 16:00",
+            "description": "Formas normales de campo de vectores alrededor de una singularidad dicrítica",
+            "speaker": "Renato Benazic",
+            "university": "UNMSM",
+            "country": "Perú"
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
-            "country": "Brasil"
+            "description": "Por confirmar",
+            "speaker": "Hernán Neciosup",
+            "university": "PUCP",
+            "country": "Perú"
           }
         ]
       }
@@ -96,18 +117,25 @@
         "name": "ÁLGEBRA",
         "program": [
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
-            "speaker": "Arkadius Płoski",
-            "university": "Kielce University of Technology",
-            "country": "Polonia"
+            "hour": "09:00 - 10:00",
+            "description": "Álgebras de pre - Calabi - Yau y estructuras de Poisson no conmutativas",
+            "speaker": "David Fernández",
+            "university": "Universidad de Bielefeld",
+            "country": "Alemania"
           },
           {
-            "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
-            "country": "Brasil"
+            "hour": "10:00 - 11:00",
+            "description": "Por confirmar",
+            "speaker": "Pedro Hernández",
+            "university": "Universidad de Antioquía",
+            "country": "Colombia"
+          },
+          {
+            "hour": "11:00 - 12:00",
+            "description": "Por confirmar",
+            "speaker": "Gabriel Muñoz",
+            "university": "UNMSM",
+            "country": "Perú"
           }
         ]
       },
@@ -115,18 +143,25 @@
         "name": "SISTEMAS DINÁMICOS",
         "program": [
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
-            "speaker": "Arkadius Płoski",
-            "university": "Kielce University of Technology",
-            "country": "Polonia"
+            "hour": "14:00 - 15:00",
+            "description": "Por confirmar",
+            "speaker": "Jorge Crisóstomo",
+            "university": "UNMSM",
+            "country": "Perú"
+          },
+          {
+            "hour": "15:00 - 16:00",
+            "description": "Sobre el número de Tjurina",
+            "speaker": "Nancy Saravia",
+            "university": "PUCP",
+            "country": "Perú"
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
-            "country": "Brasil"
+            "description": "Por confirmar",
+            "speaker": "Benito Ostos",
+            "university": "UNI",
+            "country": "Perú"
           }
         ]
       }
@@ -139,17 +174,24 @@
         "name": "ÁLGEBRA",
         "program": [
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
-            "speaker": "Arkadius Płoski",
-            "university": "Kielce University of Technology",
-            "country": "Polonia"
+            "hour": "09:00 - 10:00",
+            "description": "El juego de la mordida en submonoides de ℕ",
+            "speaker": "Ignacio García",
+            "university": "Universidad de La Laguna",
+            "country": "España"
           },
           {
-            "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
+            "hour": "10:00 - 11:00",
+            "description": "Polar Newton no Degenerada",
+            "speaker": "Fernando Hernández",
+            "university": "UNMSM",
+            "country": "Perú"
+          },
+          {
+            "hour": "11:00 - 12:00",
+            "description": "Bases de Gröbner e algumas aplicações",
+            "speaker": "Marcelo Escudeiro",
+            "university": "Universidade Estadual de Maringá",
             "country": "Brasil"
           }
         ]
@@ -158,18 +200,29 @@
         "name": "SISTEMAS DINÁMICOS",
         "program": [
           {
-            "hour": "11:00 - 12:00",
-            "description": "El número de Milnor de singularidades de curvas planas.",
-            "speaker": "Arkadius Płoski",
-            "university": "Kielce University of Technology",
-            "country": "Polonia"
+            "hour": "14:00 - 15:00",
+            "description": "Global dynamics with a star nodes: Beyond Hilbert's 16th Problem",
+            "speaker": "Begoña Alarcon",
+            "university": "Universidade Federal Fluminense",
+            "country": "Brasil"
+          },
+          {
+            "hour": "15:00 - 16:00",
+            "description": "Por confirmar",
+            "speaker": "Roland Rabanal",
+            "university": "PUCP",
+            "country": "Perú"
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Subconjunto Levi - Flat",
-            "speaker": "Arturo Fernández K",
-            "university": "Universidade Federal de Minas Gerais",
+            "description": "Por confirmar",
+            "speaker": "Bruno Azevedo",
+            "university": "Universidade Federal do Rio de Janeiro",
             "country": "Brasil"
+          },
+          {
+            "hour": "17:00 - 17:30",
+            "description": "Clausura"
           }
         ]
       }

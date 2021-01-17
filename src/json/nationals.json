@@ -1,67 +1,78 @@
 [
-    {
-      "name": "Benito Ostos",
-      "country": "Perú",
-      "university": "Universidad Nacional de Ingeniería"
-    },
+  {
+    "name": "Benito Ostos",
+    "country": "Perú",
+    "university": "Universidad Nacional de Ingeniería",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=94384"
+  },
 
-    {
-      "name": "Gabriel Muñoz",
-      "country": "Perú",
-      "university": "Universidad Nacional Mayor de San Marcos"
-    },
+  {
+    "name": "Gabriel Muñoz",
+    "country": "Perú",
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=159602"
+  },
 
-    {
-      "name": "Hernán Neciosup",
-      "country": "Perú",
-      "university": "Pontificia Universidad Católica del Perú"
-    },
+  {
+    "name": "Hernán Neciosup",
+    "country": "Perú",
+    "university": "Pontificia Universidad Católica del Perú",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=39024"
+  },
 
-    {
-      "name": "Joe Palacios",
-      "country": "Perú",
-      "university": "Universidad Nacional de Ingeniería"
-    },
+  {
+    "name": "Joe Palacios",
+    "country": "Perú",
+    "university": "Universidad Nacional de Ingeniería",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=45263"
+  },
 
-    {
-      "name": "Jorge Crisóstomo",
-      "country": "Perú",
-      "university": "Universidad Nacional Mayor de San Marcos"
-    },
+  {
+    "name": "Jorge Crisóstomo",
+    "country": "Perú",
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=79179"
+  },
 
-    {
-      "name": "Fernando Hernández",
-      "country": "Perú",
-      "university": "Universidad Nacional Mayor de San Marcos"
-    },
+  {
+    "name": "Fernando Hernández",
+    "country": "Perú",
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=126533"
+  },
 
-    {
-      "name": "Nancy Saravia",
-      "country": "Perú",
-      "university": "Pontificia Universidad Católica del Perú"
-    },
+  {
+    "name": "Nancy Saravia",
+    "country": "Perú",
+    "university": "Pontificia Universidad Católica del Perú",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13419"
+  },
 
-    {
-      "name": "Percy Fernández",
-      "country": "Perú",
-      "university": "Pontificia Universidad Católica del Perú"
-    },
+  {
+    "name": "Percy Fernández",
+    "country": "Perú",
+    "university": "Pontificia Universidad Católica del Perú",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=3192"
+  },
 
-    {
-      "name": "Renato Benazic",
-      "country": "Perú",
-      "university": "Universidad Nacional Mayor de San Marcos"
-    },
+  {
+    "name": "Renato Benazic",
+    "country": "Perú",
+    "university": "Universidad Nacional Mayor de San Marcos",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=2948"
+  },
 
-    {
-      "name": "Roland Rabanal",
-      "country": "Perú",
-      "university": "Pontificia Universidad Católica del Perú"
-    },
+  {
+    "name": "Roland Rabanal",
+    "country": "Perú",
+    "university": "Pontificia Universidad Católica del Perú",
+    "link": "https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=10837"
+  },
 
-    {
-      "name": "Rudy Rosas",
-      "country": "Perú",
-      "university": "Pontificia Universidad Católica del Perú"
-    }
-  ]
+  {
+    "name": "Rudy Rosas",
+    "country": "Perú",
+    "university": "Pontificia Universidad Católica del Perú",
+    "link": "http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=5fa7d774ce0734c6184f8224a941?id_investigador=13257"
+  }
+]
