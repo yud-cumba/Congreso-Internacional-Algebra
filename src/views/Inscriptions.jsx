@@ -47,7 +47,7 @@ export default function Inscriptions() {
   const classes = useStyles();
   const scientific = [
     'Las ponencias se realizaran de manera virtual a través de la plataforma Google Meet.',
-    ' El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 15 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción.  Para poder acceder a los certificados visite la pestaña certificación. ',
+    ' El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 15 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción',
 
   ];
   return (

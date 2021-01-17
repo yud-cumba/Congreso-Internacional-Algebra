@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Home() {
+export default function Links() {
   const classes = useStyles();
   return (
     <div className={classes.view}>
@@ -55,7 +55,8 @@ export default function Home() {
       </Typography>
       <Divider classes={{ root: classes.divider }} />
       <Typography variant="h6" className={classes.text}>
-        Accede a los congresos de álgebra mediante enlace:
+        Accede a las ponencias de álgebra mediante el siguiente enlace:
+
         <p className={classes.special}>Próximamente</p>
       </Typography>
       <Typography variant="h1" className={classes.typography}>
@@ -63,7 +64,8 @@ export default function Home() {
       </Typography>
       <Divider classes={{ root: classes.divider }} />
       <Typography variant="h6" className={classes.text}>
-        Accede a los congresos de sistemas dinámicos mediante enlace:
+        Accede a las ponencias de sistemas dinámicos mediante el siguiente enlace
+
         <p className={classes.special}>Próximamente</p>
       </Typography>
     </div>

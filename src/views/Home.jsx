@@ -47,7 +47,7 @@ export default function Home() {
       </Typography>
       <Divider classes={{ root: classes.divider }} />
       <Typography variant="h6" className={classes.text}>
-        El presente evento científico es organizado por el Departamento Académico de Matemática de la UNMSM, en coordinación con un grupo de profesores de la Facultad de Ciencias Matemáticas y de otras universidades, como una contribución de la Facultad al desarrollo científico del país y consolidar en un futuro próximo la formación de un grupo de investigación. Para esto se ha reunido a un grupo importante y prestigioso de matemáticos nacionales e internacionales de las áreas de Álgebra y Sistemas Dinámicos.
+        El presente evento científico es organizado por el Departamento Académico de Matemática de la UNMSM, en coordinación con un grupo de profesores de la Facultad de Ciencias Matemáticas y de otras universidades, como una contribución de la Facultad al desarrollo científico del país y con el fin de consolidar en un futuro próximo la formación de un grupo de investigación. Para esto se ha reunido a un grupo importante y prestigioso de matemáticos nacionales e internacionales de las áreas de Álgebra y Sistemas Dinámicos.
       </Typography>
       <Typography variant="h1" className={classes.typography}>
         Objetivo
