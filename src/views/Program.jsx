@@ -82,15 +82,15 @@ function TabPanel(prop) {
                     :
                   </h4>
                   <div className={classes.description}>
-                    <p className={progr.description === 'Inauguración y presentación.' ? classes.normal : ''}>
+                    <p className={progr.description === 'Inauguración y presentación' || progr.description === 'Clausura' ? classes.normal : ''}>
                       {progr.description}
                     </p>
                     {progr.speaker ? (
                       <p className={classes.normal}>
                         {progr.speaker}
-                        {'. '}
+                        {', '}
                         {progr.university}
-                        {'. '}
+                        {' - '}
                         {progr.country}
                       </p>
                     ) : ''}

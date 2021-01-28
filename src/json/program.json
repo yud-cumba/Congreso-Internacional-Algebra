@@ -12,14 +12,14 @@
           {
             "hour": "10:00 - 11:00",
             "description": "El número de Milnor de singularidades de curvas planas",
-            "speaker": "Arkadius Płoski",
+            "speaker": "Arkadiusz Płoski",
             "university": "Kielce University of Technology",
             "country": "Polonia"
           },
           {
             "hour": "11:00 - 12:00",
             "description": "Curvas polares de ramas planas",
-            "speaker": "Evelia Garcia",
+            "speaker": "Evelia García",
             "university": "Universidad de La Laguna",
             "country": "España"
           }
@@ -69,14 +69,14 @@
           {
             "hour": "10:00 - 11:00",
             "description": "D-Módulos y Cohomología local",
-            "speaker": "Napoleon Caro",
+            "speaker": "Napoleón Caro",
             "university": "Universidade Federal de Paraiba",
             "country": "Brasil"
           },
           {
             "hour": "11:00 - 12:00",
-            "description": "Por confirmar",
-            "speaker": "Irene Marquez",
+            "description": "Criptoanálisis del criptosistema de McEliece basado en códigos geométricos - algebraicos ",
+            "speaker": "Irene Márquez",
             "university": "Universidad de La Laguna",
             "country": "España"
           }
@@ -101,7 +101,7 @@
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Por confirmar",
+            "description": "Topología Algebraica y foliaciones holomorfas",
             "speaker": "Hernán Neciosup",
             "university": "PUCP",
             "country": "Perú"
@@ -125,14 +125,14 @@
           },
           {
             "hour": "10:00 - 11:00",
-            "description": "Por confirmar",
+            "description": "Acerca teorías de deformación:dos problemáticas en estudio",
             "speaker": "Pedro Hernández",
             "university": "Universidad de Antioquía",
             "country": "Colombia"
           },
           {
             "hour": "11:00 - 12:00",
-            "description": "Por confirmar",
+            "description": "Series lineales límites para curvas de tipo compacto",
             "speaker": "Gabriel Muñoz",
             "university": "UNMSM",
             "country": "Perú"
@@ -144,7 +144,7 @@
         "program": [
           {
             "hour": "14:00 - 15:00",
-            "description": "Por confirmar",
+            "description": "Estados de equilibrio para sistemas dinámicos parcialmente hiperbólicos con hojas centrales de dimensión 1",
             "speaker": "Jorge Crisóstomo",
             "university": "UNMSM",
             "country": "Perú"
@@ -202,13 +202,13 @@
           {
             "hour": "14:00 - 15:00",
             "description": "Global dynamics with a star nodes: Beyond Hilbert's 16th Problem",
-            "speaker": "Begoña Alarcon",
+            "speaker": "Begoña Alarcón",
             "university": "Universidade Federal Fluminense",
             "country": "Brasil"
           },
           {
             "hour": "15:00 - 16:00",
-            "description": "Por confirmar",
+            "description": "Dinámica y linealización en el plano",
             "speaker": "Roland Rabanal",
             "university": "PUCP",
             "country": "Perú"
@@ -216,7 +216,7 @@
           {
             "hour": "16:00 - 17:00",
             "description": "Por confirmar",
-            "speaker": "Bruno Azevedo",
+            "speaker": "Bruno Scardua",
             "university": "Universidade Federal do Rio de Janeiro",
             "country": "Brasil"
           },

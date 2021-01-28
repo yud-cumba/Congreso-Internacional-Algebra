@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     padding: '0px',
     fontFamily: 'Barlow',
     fontSize: '17px',
-    lineHeight: '20px',
+    lineHeight: '30px',
     [theme.breakpoints.up('sm')]: {
       fontSize: '24px',
       lineHeight: '28px',
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Inscriptions() {
   const classes = useStyles();
   const scientific = [
-    'Las ponencias se realizaran de manera virtual a través de la plataforma Google Meet.',
+    'Las ponencias se realizaran de manera virtual.',
     ' El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 15 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción',
 
   ];
@@ -61,12 +61,12 @@ export default function Inscriptions() {
         <ul style={{ marginLeft: '0px' }}>
           {
             scientific.map((scy) => (
-              <li style={{ marginLeft: '0px' }}>
+              <li style={{ marginLeft: '0px', paddingTop: '10px' }}>
                 {scy}
               </li>
             ))
               }
-          <li style={{ marginLeft: '0px' }}>
+          <li style={{ marginLeft: '0px', paddingTop: '10px' }}>
             Para poder inscribirse en el congreso,
             deberá completar la solicitud de registo a traves del siguiente enlace:
             {' '}

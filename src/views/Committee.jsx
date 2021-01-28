@@ -24,6 +24,10 @@ const useStyles = makeStyles((theme) => ({
     height: '5px',
     background: '#FFAA05',
   },
+  li: {
+    marginLeft: '0px',
+    paddingBottom: '7px',
+  },
   text: {
     padding: '0px',
     fontFamily: 'Barlow',
@@ -71,7 +75,7 @@ export default function Committee() {
         <ul style={{ marginLeft: '0px' }}>
           {
             scientific.map((scy) => (
-              <li style={{ marginLeft: '0px' }}>
+              <li className={classes.li}>
                 {scy}
               </li>
             ))
@@ -87,7 +91,7 @@ export default function Committee() {
         <ul style={{ marginLeft: '0px' }}>
           {
             teachers.map((scy) => (
-              <li style={{ marginLeft: '0px' }}>
+              <li className={classes.li}>
                 {scy}
               </li>
             ))
@@ -97,7 +101,7 @@ export default function Committee() {
         <ul style={{ marginLeft: '0px' }}>
           {
             students.map((scy) => (
-              <li style={{ marginLeft: '0px' }}>
+              <li className={classes.li}>
                 {scy}
               </li>
             ))

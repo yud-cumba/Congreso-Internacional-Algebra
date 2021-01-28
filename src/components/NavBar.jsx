@@ -96,14 +96,22 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '21px',
     textAlign: 'center',
     [theme.breakpoints.up('sm')]: {
-      fontSize: '45px',
+      fontSize: '239.5%',
       paddingTop: '5px',
+      width: '100%',
+    },
+    [theme.breakpoints.up('md')]: {
+      width: '80%', // general
+      fontSize: '47px',
     },
   },
   img: {
-    width: '70px',
+    width: '70px', // pequeño
     [theme.breakpoints.up('sm')]: {
-      width: '140px',
+      width: '0px', // medio
+    },
+    [theme.breakpoints.up('md')]: {
+      width: '140px', // general
     },
   },
   escudo: {
@@ -169,7 +177,7 @@ const NavigationBar = (prop) => {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
+      <AppBar className={classes.appBar}>
         <Toolbar style={styleToolbar}>
           <IconButton
             color="inherit"
