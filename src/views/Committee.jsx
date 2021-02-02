@@ -47,16 +47,16 @@ export default function Committee() {
     'Arkadiusz Płoski, Kielce University of Technology (Polonia)',
     'Evelia Rosa García Barroso, Universidad de La Laguna (España)',
     'Gabriel Armando Muñoz Márquez, Universidad Nacional Mayor de San Marcos (Perú)',
-    'Mauro Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos (Perú)',
+    'Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos (Perú)',
     'Marcelo Escudeiro Hernandes, Universidade Estadual de Maringá (Brasil)',
     'Roland Rabanal, Pontificia Universidad Católica del Perú. (Perú)',
   ];
   const teachers = [
-    'Benito Leonardo Ostos Cordero, Universidad Nacional de Ingeniería- IMCA.',
+    'Benito Leonardo Ostos Cordero, Universidad Nacional de Ingeniería.',
     'Gabriel Armando Muñoz Márquez, Universidad Nacional Mayor de San Marcos.',
     'María del Carmen Cáceres Huamán, Universidad Nacional Mayor de San Marcos.',
     'Maruja Yolanda Gavilán Gonzales, Universidad Nacional Mayor de San Marcos.',
-    'Mauro Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos.',
+    'Fernando Hernández Iglesias, Universidad Nacional Mayor de San Marcos.',
   ];
   const students = [
     'Abad Domínguez Quiroz, Universidad Nacional Mayor de San Marcos.',
