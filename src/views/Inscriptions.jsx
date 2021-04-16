@@ -47,8 +47,8 @@ export default function Inscriptions() {
   const classes = useStyles();
   const scientific = [
     'Las ponencias se realizaran de manera virtual.',
-    ' El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 15 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción',
-    'Las inscripciones estarán habilitadas hasta el 15 de febrero.',
+    'El certificado de participación de los asistentes se entregará de manera gratuita y solo a los asistentes que tengan un mínimo de 18 ponencias asistidas. Los datos del certificado se realizarán con los datos registrados en el formulario de inscripción',
+    'Las inscripciones estarán habilitadas hasta el 15 de febrero o hasta que se cubra las vacantes.',
   ];
   return (
     <div className={classes.view}>

@@ -18,6 +18,10 @@ const useStyles = makeStyles((theme) => ({
       fontSize: '30px',
     },
   },
+  li: {
+    marginLeft: '0px',
+    paddingBottom: '7px',
+  },
   divider: {
     // Theme Color, or use css color in quote
     height: '5px',
@@ -48,25 +52,25 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Links() {
   const classes = useStyles();
+  const links = ['Los enlaces para acceder a cada ponencia se les hará llegar al correo con el cual hizo su inscripción',
+    'Las ponencias se darán a través de la plataforma Google meet.'];
+
   return (
     <div className={classes.view}>
       <Typography variant="h1" className={classes.typography}>
-        Álgebra
+        Enlaces
       </Typography>
       <Divider classes={{ root: classes.divider }} />
       <Typography variant="h6" className={classes.text}>
-        Accede a las ponencias de álgebra mediante el siguiente enlace:
-
-        <p className={classes.special}>Próximamente</p>
-      </Typography>
-      <Typography variant="h1" className={classes.typography}>
-        Sistemas Dinámicos
-      </Typography>
-      <Divider classes={{ root: classes.divider }} />
-      <Typography variant="h6" className={classes.text}>
-        Accede a las ponencias de sistemas dinámicos mediante el siguiente enlace
-
-        <p className={classes.special}>Próximamente</p>
+        <ul style={{ marginLeft: '0px' }}>
+          {
+            links.map((scy) => (
+              <li className={classes.li}>
+                {scy}
+              </li>
+            ))
+          }
+        </ul>
       </Typography>
     </div>
   );

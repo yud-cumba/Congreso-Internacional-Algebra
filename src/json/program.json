@@ -30,7 +30,7 @@
         "program": [
           {
             "hour": "14:00 - 15:00",
-            "description": "Por confirmar",
+            "description": "Distribuciones no integrables y foliaciones Legendrianas",
             "speaker": "Rudy Rosas",
             "university": "PUCP",
             "country": "Perú"
@@ -44,7 +44,7 @@
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Por confirmar",
+            "description": "Singularidad Nilpotente",
             "speaker": "Percy Fernández",
             "university": "PUCP",
             "country": "Perú"
@@ -158,7 +158,7 @@
           },
           {
             "hour": "16:00 - 17:00",
-            "description": "Por confirmar",
+            "description": "Acciones holomorfas, órbitas y separatrices",
             "speaker": "Benito Ostos",
             "university": "UNI",
             "country": "Perú"
